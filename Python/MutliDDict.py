@@ -22,3 +22,11 @@ multidimensional_dict = {
         }
 value = multidimensional_dict['first_level']['second_level_1']['third_level_2']
 print(value)
+
+
+# multi level nested dictionary
+
+dictionary = {
+    k1: {k2: k1 * k2 for k2 in range(2, 6)} for k1 in range(5, 7)
+}
+print(dictionary)
