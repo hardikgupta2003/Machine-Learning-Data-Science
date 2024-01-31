@@ -1,0 +1,1 @@
+hello this is data text file opened by python file handling
